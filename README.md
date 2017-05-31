@@ -9,7 +9,7 @@ Designed to work well with screen readers and other assistive technologies.
 ```
 <link rel="stylesheet" href="allies-autocomplete.css">
 
-<label for="allies_autocomplete">Enter a postcode or start typing an UK address</label>
+<label for="allies_autocomplete">Enter a postcode or start typing a UK address</label>
 <input id="allies_autocomplete" type="text">
 
 <script src="allies-autocomplete.js"></script>
@@ -46,7 +46,7 @@ Designed to work well with screen readers and other assistive technologies.
             <td>apiKey</td>
             <td>PCW45-12345-12345-1234X</td>
             <td>
-            This is an API key for a PostCoder Web accounts, available at - https://www.alliescomputing.com/postcoder/sign-up<br>
+            This is an API key for a PostCoder Web account, available at - https://www.alliescomputing.com/postcoder/sign-up<br>
             Default is a test key (Locked to addresses in the NR14 7PZ postcode)
             </td>
         </tr>
