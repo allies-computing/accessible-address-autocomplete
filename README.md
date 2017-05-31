@@ -71,7 +71,7 @@ Designed to work well with screen readers and other assistive technologies.
             <td>excludeFields</td>
             <td>organisation</td>
             <td>
-            Comma seperated list of fields to exclude from address lines output  <br>
+            Comma separated list of fields to exclude from address lines output  <br>
             More information can be found - https://developers.alliescomputing.com/postcoder-web-api/address-lookup/premise
             </td>
         </tr>
