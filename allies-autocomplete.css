@@ -1,0 +1,88 @@
+.allies-complete [hidden] {
+    display: none;
+}
+
+.allies-complete .visually-hidden {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+.allies-complete {
+    display: block;
+    position: relative;
+}
+
+.allies-complete > input {
+    display: block;
+}
+
+.allies-complete > ul {
+    position: absolute; /* Use relative to push content down instead of overlay */
+    left: 0;
+    z-index: 1;
+    min-width: 100%;
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: rgb(255,255,255);
+}
+
+
+.allies-complete > ul:empty {
+    display: none;
+}
+
+.allies-complete > ul {
+	border-radius: .3em;
+	margin: .2em 0 0;
+	background: rgba(255, 255, 255, 0.9);
+	background: linear-gradient(to bottom right, white, rgba(255, 255, 255, 0.8));
+	border: 1px solid rgba(0,0,0,.3);
+	box-shadow: .05em .2em .6em rgba(0,0,0,.2);
+	text-shadow: none;
+}
+	
+.allies-complete > ul[hidden],
+.allies-complete > ul:empty {
+    display: none;
+}
+
+/* Pointer */
+.allies-complete > ul:before {
+    content: "";
+    position: absolute;
+    top: -.43em;
+    left: 1em;
+    width: 0; height: 0;
+    padding: .4em;
+    background: white;
+    border: inherit;
+    border-right: 0;
+    border-bottom: 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.allies-complete > ul > li {
+    position: relative;
+    padding: .2em .5em;
+    cursor: pointer;
+    font-weight: bold; 
+}
+
+.allies-complete mark {
+    font-weight: normal; 
+    color: rgb(50,50,50);
+    background: none;
+    padding: 0;
+}
+
+.allies-complete > ul > li:hover, .allies-complete > ul > li[aria-selected="true"] {
+    color: rgb(255,255,255);
+    background: rgb(66,139,202);
+}
+
+.allies-complete > ul > li:hover mark, .allies-complete > ul > li[aria-selected="true"] mark {
+    color: rgb(255,255,255);
+}
