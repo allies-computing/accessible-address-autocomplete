@@ -312,7 +312,7 @@
 
                 this.status.textContent = lis[i].textContent + ", list item " + (i + 1) + " of " + lis.length;
 
-                this.input.setAttribute("aria-activedescendant", "allies_complete_list_" + AlliesComplete.numInstances + "_item_" + this.index);
+                this.input.setAttribute("aria-activedescendant", this.ul.id + "_item_" + this.index);
 
                 // scroll to highlighted element in case parent's height is fixed
                 this.ul.scrollTop = lis[i].offsetTop - this.ul.clientHeight + lis[i].clientHeight;

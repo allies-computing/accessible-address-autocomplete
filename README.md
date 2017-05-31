@@ -46,15 +46,15 @@ Designed to work well with screen readers and other assistive technologies.
             <td>apiKey</td>
             <td>PCW45-12345-12345-1234X</td>
             <td>
-            This is an API key for a PostCoder Web accounts, available at - https://www.alliescomputing.com/postcoder/sign-up   
-            Default is the a test key (Locked to addresses in the NR14 7PZ postcode)
+            This is an API key for a PostCoder Web accounts, available at - https://www.alliescomputing.com/postcoder/sign-up<br>
+            Default is a test key (Locked to addresses in the NR14 7PZ postcode)
             </td>
         </tr>
         <tr>
             <td>endpoint</td>
             <td>address</td>
             <td>
-            Endpoint to get final address data from when user selects an address from list   
+            Endpoint to get final address data from when user selects an address from list  <br> 
             Also accepts 'addressgeo' which returns latitude and longitude along with full address
             </td>
         </tr>
@@ -62,8 +62,8 @@ Designed to work well with screen readers and other assistive technologies.
             <td>addresslines</td>
             <td>2</td>
             <td>
-            Number of address lines to split elements over, 1 - 10 accepted.   
-            Returns 'addressline1', 'addressline2' etc  
+            Number of address lines to split elements over, 1 - 10 accepted.   <br>
+            Returns 'addressline1', 'addressline2' etc  <br>
             If address is short, blank fields will not be returned.
             </td>
         </tr>
@@ -71,7 +71,7 @@ Designed to work well with screen readers and other assistive technologies.
             <td>excludeFields</td>
             <td>organisation</td>
             <td>
-            Comma seperated list of fields to exclude from address lines output  
+            Comma seperated list of fields to exclude from address lines output  <br>
             More information can be found - https://developers.alliescomputing.com/postcoder-web-api/address-lookup/premise
             </td>
         </tr>
