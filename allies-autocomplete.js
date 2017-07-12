@@ -127,7 +127,7 @@
                                         var ajax_list = [];
 
                                         for (i = 0; i < data.predictions.length; i++) {
-                                            item = {
+                                            var item = {
                                                 label: data.predictions[i].prediction,
                                                 value: data.predictions[i].refs
                                             };
